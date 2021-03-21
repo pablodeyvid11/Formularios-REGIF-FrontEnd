@@ -1,29 +1,25 @@
 .main-navbar {
-    /*
-    position: absolute;
-    width: 1440px;
-    left: 0px;
-    top: 0px;
-*/
     height: 70px;
     background-color: #266192;
-    padding-left: 45px;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .logo {
+    display: block;
+    margin-left: auto;
     height: 100px;
     width: 100px;
 }
 
 .logo-text {
     text-decoration: none;
-    margin-left: 15px;
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
     letter-spacing: -0.015em;
     color: #FFFFFF;
-    
+    display: block;
+    margin-right: auto;
 }

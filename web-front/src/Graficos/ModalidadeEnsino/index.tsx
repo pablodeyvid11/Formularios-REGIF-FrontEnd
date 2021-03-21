@@ -41,18 +41,18 @@ function ModalidadeEnsino({ respostas }: props) {
         });
 
         let dadosLet: data[] = [];
-        dadosLet.push({ quarter: "Integrado", earnings: Integrado });
-        dadosLet.push({ quarter: "Integrado EJA", earnings: IntegradoEJA });
-        dadosLet.push({ quarter: "Subsequente", earnings: Subsequente });
-        dadosLet.push({ quarter: "Graduação", earnings: Graduacao });
-        dadosLet.push({ quarter: "Pós-Graduação", earnings: Graduacao });
-        dadosLet.push({ quarter: "Mestrado", earnings: Mestrado });
+        dadosLet.push({ quarter: `Integrado - ${Integrado}`, earnings: Integrado });
+        dadosLet.push({ quarter: `Integrado EJA - ${IntegradoEJA}`, earnings: IntegradoEJA });
+        dadosLet.push({ quarter: `Subsequente - ${Subsequente}`, earnings: Subsequente });
+        dadosLet.push({ quarter: `Graduação - ${Graduacao}`, earnings: Graduacao });
+        dadosLet.push({ quarter: `Pós-Graduação - ${PosGraduacao}`, earnings: PosGraduacao });
+        dadosLet.push({ quarter: `Mestrado - ${Mestrado}`, earnings: Mestrado });
         setDado(dadosLet);
     }, []);
 
     return (
         <>
-        <h1>Qual a sua modalidade de ensino?</h1>
+        <h1 className="titulo-modalidade">Qual a sua modalidade de ensino? {`(${respostas.length} respostas)`}</h1>
             <div className="table">
                 <VictoryChart domainPadding={50} width={1000} height={500}
                     theme={VictoryTheme.material}

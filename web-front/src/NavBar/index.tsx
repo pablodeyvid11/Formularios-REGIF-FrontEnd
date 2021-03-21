@@ -7,7 +7,7 @@ function NavBar() {
     return (
         <nav className="main-navbar">
             <Logo className="logo"/>
-            <h1 className="logo-text">Rede de grêmios do IFRN (REGIF)</h1>
+            <h1 className="logo-text">REGIF</h1>
         </nav>
     );
 }

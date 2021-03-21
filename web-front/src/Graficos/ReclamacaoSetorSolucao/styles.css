@@ -1,0 +1,41 @@
+.table{
+    width: 75;
+    height: 400px;
+}
+
+.titulo-modalidade {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.legenda {
+    text-align: center;
+}
+
+#salmao, #laranja, #ouro, #ciano, #azul-escuro, #verde{
+    font-size: 30px;
+}
+
+#salmao {
+    color: coral;
+}
+
+#laranja {
+    color: orange;
+}
+
+#ouro {
+    color: gold;
+}
+
+#ciano {
+    color: aqua;
+}
+
+#azul-escuro {
+    color: blue;
+}
+
+#verde {
+    color: green;
+}

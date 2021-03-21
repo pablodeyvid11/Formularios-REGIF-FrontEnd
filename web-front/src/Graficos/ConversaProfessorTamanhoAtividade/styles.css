@@ -1,0 +1,29 @@
+.table{
+    width: 75;
+    height: 400px;
+}
+
+.titulo-modalidade {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.legenda {
+    text-align: center;
+}
+
+#azul, #laranja, #ciano {
+    font-size: 30px;
+}
+
+#azul {
+    color: blue;
+}
+
+#laranja {
+    color: orange;
+}
+
+#ciano {
+    color: aqua;
+}

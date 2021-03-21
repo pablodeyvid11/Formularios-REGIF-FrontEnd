@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080';
+const API_URL = 'https://respostas-formulario.herokuapp.com';
 
 export async function getRespostas() {
     return (await axios(`${API_URL}/respostas`)).data;
