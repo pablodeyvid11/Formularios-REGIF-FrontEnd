@@ -23,3 +23,21 @@
     display: block;
     margin-right: auto;
 }
+
+.logo:hover {
+    height: 110px;
+    width: 110px;
+}
+
+.contato-div {
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    text-align: right;
+}
+
+.contato {
+    margin-right: 5px;
+    background-color: #ffffff00;
+    color: rgb(255, 255, 255);
+}

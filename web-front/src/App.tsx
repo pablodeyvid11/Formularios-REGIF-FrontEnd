@@ -8,6 +8,7 @@ import options from './optionsCampusSelect';
 import NavBar from "./NavBar";
 import GraficosArea from './GraficosArea';
 import Relatos from './Relatos';
+import Footer from './Footer';
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
         </div>
         <GraficosArea respostas={respostas} key={respostas.length + 550}></GraficosArea>
         <Relatos respostas={respostas} key={respostas.length + 510}></Relatos>
+        <Footer></Footer>
       </div>
     </>
   );
